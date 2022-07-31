@@ -4,37 +4,37 @@ var app=express();
 
 app.get("/",(req, res)=>{
     res.send(
-            "<h1>Vijay Sales </h1>"
+            "<h1>Green Mart </h1>"
             +"<hr/>"
-            +"<h3>Smart Devices for sale</h3>"
+            +"<h3>Daily Grocery and Vegetables</h3>"
             + "<br/>"
             + "<ol>"
-            +"<li>Laptops</li>"
-            +"<li>Mobile Phones</li>"
-            +"<li>Hololgraphic Devices</li>"
-            +"<li>Samrt Watches</li>"
-            +"<li>Gaming Consoles</li>"
+            +"<li>Fruits</li>"
+            +"<li>Vegetables</li>"
+            +"<li>Coldrinks</li>"
+            +"<li>Cereals</li>"
+            +"<li>Snacks</li>"
             + "</ol>"
     );
 });
 
 app.get("/aboutus",(req, res)=>{
     res.send(
-            "<h1>Vijay Sales </h1>"
+            "<h1>Green Mart </h1>"
             +"<hr/>"
             +"<h3>Doing ordinary things extraordinarily</h3>"
             + "<br/>"
             + "<ol>"
-            +"<li>Chief Mentor: Ravi Tambade</li>"
-            +"<li>Director: Shubhangi Tambade</li>"
-            +"<li>Subject Matter Expert: Rohit Gore</li>"
+            +"<li>Buy all Products With one click</li>"
+            +"<li>Follow us on Insta @GreenMart</li>"
+            +"<li>for more info visit Website www.Greenmart.com</li>"
             + "</ol>"
     );
 });
 
 app.get("/login",(req, res)=>{
     res.send(
-            "<h1>Vijay Sales </h1>"
+            "<h1>Green Mart</h1>"
             + "<h3>Login</h3>"
             +"<hr/>"
             +"<form>"
@@ -47,4 +47,4 @@ app.get("/login",(req, res)=>{
 });
 
 var server=app.listen(9000);
-console.log("Vijay Sales Online shopping running on port 9000");
+console.log("Green Mart Online shopping running on port 9000");
