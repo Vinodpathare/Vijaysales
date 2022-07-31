@@ -1,0 +1,23 @@
+{
+  "name": "vijaysales",
+  "version": "1.0.0",
+  "description": "This is simple Vijay Sales online shopping application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaviTambade/vijaysales.git"
+  },
+  "author": "Ravi Tambade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaviTambade/vijaysales/issues"
+  },
+  "homepage": "https://github.com/RaviTambade/vijaysales#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
